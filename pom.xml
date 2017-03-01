@@ -34,6 +34,13 @@
     </build>
 
     <dependencies>
+        <!-- jsqlparser -->
+        <dependency>
+            <groupId>com.github.jsqlparser</groupId>
+            <artifactId>jsqlparser</artifactId>
+            <version>0.9.7</version>
+        </dependency>
+
         <!-- ========== -->
         <!--  Test API  -->
         <!-- ========== -->
