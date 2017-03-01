@@ -1,7 +1,17 @@
 package io.fharenheit.hibernate;
 
+/**
+ * Formatter contract
+ *
+ * @author Steve Ebersole
+ */
 public interface Formatter {
 
-    String format(String sql);
-
+    /**
+     * Format the source SQL string.
+     *
+     * @param source The original SQL string
+     * @return The formatted version
+     */
+    String format(String source);
 }
